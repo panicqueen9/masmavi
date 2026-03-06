@@ -1,4 +1,4 @@
-# Meine Website
+# MASMAVI FOTOGRAFIE
 
 Dies ist meine persönliche Website.
 
@@ -7,10 +7,6 @@ Dies ist meine persönliche Website.
 - Portfolio
 - Projekte
 - Kontakt
-
-## Technologie
-
-Die Website ist eine statische Seite und wird gehostet über GitHub Pages.
 
 ## Live Website
 
