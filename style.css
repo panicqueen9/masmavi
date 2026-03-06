@@ -114,6 +114,46 @@ body{
   opacity:.85;
 }
 
+/* ABOUT */
+#about{
+  padding:180px 10%;
+  background:#fafafa;
+}
+
+.about-title{
+  text-align:center;          /* Titel mittig */
+  font-family:'Playfair Display', serif;
+  letter-spacing:4px;
+  margin-bottom:90px;
+  maring-left:40px;
+}
+
+.about-container{
+  display:flex;
+  align-items:center;
+  gap:405px;
+  max-width:1200px;
+  margin:0 auto;
+}
+
+.about-image img{
+  width:380px;
+  height:480px;
+  object-fit:cover;
+  border-radius:6px;
+}
+
+.about-text{
+  flex:1;
+  text-align:left;            /* Fliesstext linksbündig */
+}
+
+.about-text p{
+  line-height:1.8;
+  margin-bottom:20px;
+  color:#444;
+}
+
 /* CONTACT */
 form{
   max-width:500px;
