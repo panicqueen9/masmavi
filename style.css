@@ -95,7 +95,7 @@ body{
 
 .grid img{
   width:100%;
-  aspect-ratio: 4 / 3;   /* Rechteck-Format */
+  aspect-ratio: 1 / 1;   /* Viereck Format */
   object-fit: cover;     /* Bild füllt Fläche ohne Verzerren */
   display:block;
   transition:.4s;
