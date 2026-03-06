@@ -57,7 +57,7 @@ body{
   height:85vh;
 
   /* Bild */
-  background:url("bilder/hero.jpg") right center/no-repeat fixed;
+  background:url("bilder/hero.jpg") no-repeat fixed;
   background-size:cover;
   background-position:90% center;
 
