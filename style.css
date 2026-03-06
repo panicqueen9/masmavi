@@ -52,23 +52,14 @@ body{
 }
 
 /* HERO PARALLAX */
-.hero-parallax{
-  height:85vh;
-  background:url("bilder/hero.jpg") right center/cover no-repeat fixed;
-  position:relative;
-  display:flex;
-  align-items:center;
-  justify-content:flex-end;
-  padding-right:10%;
-}
 
 .hero-parallax{
   height:85vh;
 
   /* Bild */
-  background:url("bilder/hero.jpg") no-repeat fixed;
+  background:url("bilder/hero.jpg") right center/no-repeat fixed;
   background-size:cover;
-  background-position:80% center;
+  background-position:90% center;
 
   /* Balken-Effekt */
   max-width:1400px;   /* Breite des Bildbereichs */
