@@ -5,10 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>masmavi fotografie</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard/dist/web/static/pretendard.css">
 <link rel="stylesheet" href="style.css">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard/dist/web/static/pretendard.css">
 </head>
 
 <body>
@@ -19,6 +18,9 @@
     <div class="tagline">Was zählt, ist Begeisterung.</div>
   </div>
 
+  <!-- Mobile Menü Button -->
+  <button class="menu-toggle" aria-label="Menü öffnen">☰</button>
+
   <nav class="nav">
     <a href="#portfolio">Portfolio</a>
     <a href="#about">Über mich</a>
@@ -26,7 +28,7 @@
   </nav>
 </header>
   
-  <section class="hero-parallax">
+<section class="hero-parallax">
   <div class="hero-overlay">
     <h1>masmavi</h1>
     <p>Fotografie & Content</p>
@@ -36,23 +38,21 @@
 <section id="portfolio" class="section">
   <h2>Portfolio</h2>
   <div class="grid">
-    <img src="bilder/foto1.jpg">
-    <img src="bilder/foto2.jpg">
-    <img src="bilder/foto3.jpg">
-    <img src="bilder/foto4.jpg">
-    <img src="bilder/foto5.jpg">
-    <img src="bilder/foto6.jpg">
-    <img src="bilder/foto7.jpg">
-    <img src="bilder/foto8.jpg">
+    <img src="bilder/foto1.jpg" alt="">
+    <img src="bilder/foto2.jpg" alt="">
+    <img src="bilder/foto3.jpg" alt="">
+    <img src="bilder/foto4.jpg" alt="">
+    <img src="bilder/foto5.jpg" alt="">
+    <img src="bilder/foto6.jpg" alt="">
+    <img src="bilder/foto7.jpg" alt="">
+    <img src="bilder/foto8.jpg" alt="">
   </div>
 </section>
 
 <section id="about">
-  <h1 class="about-title">About</h1>
+  <h2 class="about-title">About</h2>
 
   <div class="about-container">
-    
-    
     <div class="about-image">
       <img src="bilder/about.jpg" alt="Portrait Masmavi">
     </div>
@@ -73,24 +73,19 @@
         lass uns bei einem Kaffee darüber sprechen.
       </p>
     </div>
-
   </div>
 </section>
 
 <section id="contact" class="section">
-  <h2>Contact</h2>
- <form id="contact-form" action="https://formspree.io/f/xgoneveb"" method="POST">
-  
-  <input type="text" name="name" placeholder="Name" required>
-  <input type="email" name="email" placeholder="E-Mail" required>
-  <textarea name="message" placeholder="Nachricht" required></textarea>
-  
-  <button type="submit">Nachricht senden</button>
+  <h2>Kontakt</h2>
 
-  <!-- Erfolgsmeldung -->
-  <p id="form-status" class="form-status"></p>
-
-</form>
+  <form id="contact-form" action="https://formspree.io/f/xgoneveb" method="POST">
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="email" name="email" placeholder="E-Mail" required>
+    <textarea name="message" placeholder="Nachricht" required></textarea>
+    <button type="submit">Nachricht senden</button>
+    <p id="form-status" class="form-status"></p>
+  </form>
 </section>
 
 <footer class="footer">
