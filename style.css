@@ -54,7 +54,26 @@ body{
 /* HERO PARALLAX */
 .hero-parallax{
   height:85vh;
-  background:url("bilder/hero.jpg") center/cover no-repeat fixed;
+  background:url("bilder/hero.jpg") right center/cover no-repeat fixed;
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  padding-right:10%;
+}
+
+.hero-parallax{
+  height:85vh;
+
+  /* Bild */
+  background:url("bilder/hero.jpg") no-repeat fixed;
+  background-size:cover;
+  background-position:80% center;
+
+  /* Balken-Effekt */
+  max-width:1400px;   /* Breite des Bildbereichs */
+  margin:0 auto;      /* zentriert */
+
   position:relative;
   display:flex;
   align-items:center;
@@ -69,7 +88,7 @@ body{
 
 .hero-overlay h1{
   font-family:'Playfair Display', serif;
-  font-size:220px;
+  font-size:180px;
   font-weight:400;
   margin:0;
 }
