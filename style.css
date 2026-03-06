@@ -137,7 +137,7 @@ body{
 }
 
 .about-image img{
-  width:380px;
+  width:640px;
   height:480px;
   object-fit:cover;
   border-radius:6px;
