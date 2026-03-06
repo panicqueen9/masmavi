@@ -59,10 +59,10 @@ body{
   /* Bild */
   background:url("bilder/hero.jpg") no-repeat fixed;
   background-size:cover;
-  background-position:90% center;
+  background-position:30% center;
 
   /* Balken-Effekt */
-  max-width:1750px;   /* Breite des Bildbereichs */
+  max-width:1900px;   /* Breite des Bildbereichs */
   margin:0 auto;      /* zentriert */
 
   position:relative;
