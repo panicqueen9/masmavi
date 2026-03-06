@@ -9,38 +9,76 @@ body{
   background:white;
 }
 
-/* HEADER */
-.header{
+/* TOP HEADER */
+.top-header{
+  background:#f6f6f6;
   text-align:center;
-  padding:40px 20px 10px;
-  border-bottom:1px solid #eee;
+  padding:40px 20px 30px;
+}
+
+.brand{
+  margin-bottom:30px;
 }
 
 .logo{
   font-family:'Playfair Display', serif;
-  font-size:32px;
+  font-size:34px;
   letter-spacing:6px;
-  margin-bottom:20px;
+  margin-bottom:8px;
 }
 
-.menu{
+.tagline{
+  font-size:13px;
+  letter-spacing:2px;
+  color:var(--masmavi);
+}
+
+.nav{
   display:flex;
   justify-content:center;
-  gap:50px;
-  padding-bottom:15px;
+  gap:120px;
+  font-size:14px;
 }
 
-.menu a{
+.nav a{
   text-decoration:none;
-  color:#111;
-  font-size:13px;
-  letter-spacing:3px;
-  text-transform:uppercase;
+  color:#444;
+  letter-spacing:2px;
   transition:.3s;
 }
 
-.menu a:hover{
+.nav a:hover{
   color:var(--masmavi);
+}
+
+/* HERO PARALLAX */
+.hero-parallax{
+  height:85vh;
+  background:url("bilder/hero.jpg") center/cover no-repeat fixed;
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  padding-right:10%;
+}
+
+.hero-overlay{
+  color:white;
+  text-align:right;
+}
+
+.hero-overlay h1{
+  font-family:'Playfair Display', serif;
+  font-size:110px;
+  font-weight:400;
+  margin:0;
+}
+
+.hero-overlay p{
+  font-size:22px;
+  letter-spacing:3px;
+  margin-top:10px;
+  opacity:.9;
 }
 
 /* HERO */
