@@ -1,5 +1,5 @@
 :root{
-  --masmavi:#2f6df6;
+  --masmavi:#3078BE;
 }
 
 body{
@@ -89,7 +89,7 @@ body{
 /* GRID */
 .grid{
   display:grid;
-  grid-template-columns:repeat(4,1fr); /* genau 4 Bilder */
+  grid-template-columns:repeat(4,1fr);
   gap:22px;
 }
 
@@ -103,8 +103,8 @@ body{
 
 .grid img{
   width:100%;
-  aspect-ratio:1 / 1;   /* macht sie quadratisch */
-  object-fit:cover;     /* kein Verzerren */
+  aspect-ratio:1 / 1;
+  object-fit:cover;
   display:block;
   transition:.4s;
 }
@@ -121,17 +121,17 @@ body{
 }
 
 .about-title{
-  text-align:center;          /* Titel mittig */
+  text-align:center;
   font-family:'Playfair Display', serif;
   letter-spacing:4px;
   margin-bottom:90px;
-  maring-left:40px;
+  margin-left:40px;
 }
 
 .about-container{
   display:flex;
   align-items:center;
-  gap:405px;
+  gap:120px;
   max-width:1200px;
   margin:0 auto;
 }
@@ -145,7 +145,7 @@ body{
 
 .about-text{
   flex:1;
-  text-align:left;            /* Fliesstext linksbündig */
+  text-align:left;
 }
 
 .about-text p{
@@ -163,9 +163,17 @@ form{
   gap:15px;
 }
 
+.form-status{
+  margin-top:20px;
+  font-size:14px;
+  letter-spacing:1px;
+  color:var(--masmavi);
+}
+
 input, textarea{
   padding:14px;
   border:1px solid #ddd;
+  font-family:'Raleway', sans-serif;
 }
 
 button{
@@ -175,9 +183,12 @@ button{
   color:white;
   letter-spacing:2px;
   cursor:pointer;
+  font-family:'Raleway', sans-serif;
 }
 
-button:hover{opacity:.85}
+button:hover{
+  opacity:.85;
+}
 
 /* FOOTER */
 footer{
