@@ -412,3 +412,52 @@ button:hover{
     padding:60px 6%;
   }
 }
+
+
+/* =========================
+   ✨ ELEGANTES MOBILE MENU
+========================= */
+
+.menu-toggle{
+  display:none;
+  position:absolute;
+  right:25px;
+  top:38px;
+  font-size:26px;
+  background:none;
+  border:none;
+  color:#333;
+  cursor:pointer;
+  padding:8px;
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+  .menu-toggle{
+    display:block;
+  }
+
+  .nav{
+    display:none;
+    flex-direction:column;
+    gap:26px;
+    margin-top:35px;
+    animation:fadeIn .3s ease;
+  }
+
+  .nav a{
+    font-size:18px;
+    letter-spacing:2px;
+  }
+
+  .nav.nav-open{
+    display:flex;
+  }
+}
+
+/* weiche Animation */
+@keyframes fadeIn{
+  from{opacity:0; transform:translateY(-10px)}
+  to{opacity:1; transform:translateY(0)}
+}
