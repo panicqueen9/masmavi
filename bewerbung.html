@@ -105,7 +105,8 @@
 </section>
 
 <section id="portfolio" class="section">
-  <h2>Portfolio</h2>
+ <h1>Portfolio</h1>
+<h3 class="portfolio-subtitle">Fotografie</h3>
   <div class="grid">
     <img src="bilder/foto1.jpg" alt="">
     <img src="bilder/foto2.jpg" alt="">
@@ -117,15 +118,21 @@
     <img src="bilder/foto8.jpg" alt="">
   </div>
 
-
-<div class="cinema-grid">
-
-  <div class="cinema-item" data-video="qTUbFWhWq54">
-  <img src="bilder/video1.jpg" alt="">
-  <div class="play-btn"></div>
+  <!-- Image Lightbox -->
+<div id="imgLightbox" class="img-lightbox">
+  <span class="img-close">&times;</span>
+  <img class="img-lightbox-content" id="lightboxImg">
 </div>
 
-  <div class="cinema-item" data-video="F-eXdBIV_3Y">
+  <h3 class="portfolio-subtitle">Videografie</h3>
+<div class="cinema-grid">
+
+  <div class="cinema-item" data-video="XiM4Ouz0-n0">
+    <img src="bilder/video1.jpg" alt="">
+    <div class="play-btn"></div>
+  </div>
+
+  <div class="cinema-item" data-video="qTUbFWhWq54">
   <img src="bilder/video2.jpg" alt="">
   <div class="play-btn"></div>
 </div>
@@ -135,7 +142,7 @@
     <div class="play-btn"></div>
   </div>
 
-  <div class="cinema-item" data-video="EOg6LRQ0RM">
+  <div class="cinema-item" data-video="tEOg6LRQ0RM">
     <img src="bilder/video4.jpg" alt="">
     <div class="play-btn"></div>
   </div>
@@ -155,22 +162,73 @@
     <div class="play-btn"></div>
   </div>
 
-  <div class="cinema-item" data-video="VIDEOID8">
-    <img src="bilder/video8.jpg" alt="">
-    <div class="play-btn"></div>
-  </div>
-
+<div class="cinema-item" data-video="F-eXdBIV_3Y">
+  <img src="bilder/video8.jpg" alt="">
+  <div class="play-btn"></div>
 </div>
 
-<!-- Overlay Player -->
-<div id="videoOverlay" class="video-overlay">
-  <div class="video-wrapper">
-    <span class="close-video">&times;</span>
-    <iframe id="videoFrame" src="" allow="autoplay; fullscreen" allowfullscreen></iframe>
-  </div>
 </div>
 
 </section>
+
+<section id="skills" class="skills-section">
+  <h2 class="skills-title">Skills</h2>
+  <p class="skills-sub">Content</p>
+
+  <div class="skills-list">
+
+    <div class="skill">
+      <span>Planung & Management</span>
+      <div class="skill-bar"><div data-width="95%"></div></div>
+      <em>95%</em>
+    </div>
+
+    <div class="skill">
+      <span>Konzepte & Strategie</span>
+      <div class="skill-bar"><div data-width="95%"></div></div>
+      <em>95%</em>
+    </div>
+
+    <div class="skill">
+      <span>Digitale Kommunikation</span>
+      <div class="skill-bar"><div data-width="80%"></div></div>
+      <em>80%</em>
+    </div>
+
+    <div class="skill">
+      <span>Content Writing </span>
+      <div class="skill-bar"><div data-width="75%"></div></div>
+      <em>75%</em>
+    </div>
+
+    <div class="skill">
+      <span>Online & Offline Marketing</span>
+      <div class="skill-bar"><div data-width="80%"></div></div>
+      <em>80%</em>
+    </div>
+
+    <div class="skill">
+      <span>Social Media Content</span>
+      <div class="skill-bar"><div data-width="70%"></div></div>
+      <em>70%</em>
+    </div>
+
+    <div class="skill">
+      <span> Gute Laune</span>
+      <div class="skill-bar"><div data-width="100%"></div></div>
+      <em>100%</em>
+    </div>
+
+    <div class="skill">
+      <span>Fotografie/Videografiee</span>
+      <div class="skill-bar"><div data-width="95%"></div></div>
+      <em>95%</em>
+    </div>
+
+  </div>
+</section>
+
+
 
 <section id="motivation">
   <h2 class="about-title">Motivation</h2>
@@ -178,24 +236,16 @@
   <div class="about-container">
     <div class="about-text" style="max-width: 800px;">
       <p>
-        Die Verbindung von strategischer Kommunikation, Content-Entwicklung
-        und Projektkoordination begeistert mich seit Jahren. Genau deshalb
-        spricht mich die ausgeschriebene Position besonders an.
+        Die Verbindung von Kommunikation, Content und Organisation begleitet mich 
+        seit vielen Jahren. Besonders die Koordination von Projekten liegt mir sehr.
+        Hier habe ich meine Stärke entdeckt und übernehme gerne Verantwortung, 
+        um Ideen strukturiert und zielgerichtet umzusetzen.
       </p>
       <p>
-        Ich möchte meine Erfahrung in Content-Produktion, Marketingkonzeption
-        und visueller Kommunikation dort einsetzen, wo Bildung, Innovation
-        und kreative Zusammenarbeit aufeinandertreffen.
-      </p>
-      <p>
-        Die Möglichkeit, Kommunikationsprojekte eigenverantwortlich zu
-        betreuen, Inhalte kanalübergreifend zu entwickeln und aktiv zur
-        Markenwahrnehmung beizutragen, motiviert mich sehr.
-      </p>
-      <p>
-        Ich arbeite strukturiert, lösungsorientiert und mit viel Engagement.
-        Gleichzeitig bringe ich kreative Energie, Teamgeist und Freude an
-        neuen Herausforderungen mit.
+    Meine Erfahrung in Content-Produktion, Marketingkonzeption und visueller Kommunikation
+    möchte ich dort einbringen, wo Bildung, Innovation und Zusammenarbeit aufeinandertreffen.
+    Es motiviert mich, Inhalte strategisch zu planen, kanalübergreifend zu entwickeln 
+    und Projekte von der Idee bis zur Umsetzung zu begleiten.
       </p>
     </div>
   </div>
@@ -239,17 +289,6 @@
   </div>
 </section>
 
-<section id="contact" class="section">
-  <h2>Kontakt</h2>
-
-  <form id="contact-form" action="https://formspree.io/f/xgoneveb" method="POST">
-    <input type="text" name="name" placeholder="Name" required>
-    <input type="email" name="email" placeholder="E-Mail" required>
-    <textarea name="message" placeholder="Nachricht" required></textarea>
-    <button type="submit">Nachricht senden</button>
-    <p id="form-status" class="form-status"></p>
-  </form>
-</section>
 
 <footer class="footer">
   <div class="footer-inner">
