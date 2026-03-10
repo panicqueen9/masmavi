@@ -270,6 +270,49 @@ body{
   }
 }
 
+/* =========================
+   PROFIL RESPONSIVE FIX
+========================= */
+
+/* Tablet */
+@media (max-width: 1600px){
+
+  .about-container{
+    gap: 80px;
+    padding: 0 40px;
+  }
+
+  .about-image img{
+    width: 520px;
+    height: auto;
+  }
+
+  .about-text{
+    max-width: 420px;
+  }
+}
+
+/* Smartphone */
+@media (max-width: 1200px){
+
+  .about-container{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+  }
+
+  .about-image img{
+    width: 100%;
+    max-width: 520px;
+  }
+
+  .about-text{
+    max-width: 650px;
+    text-align: center;
+  }
+}
+
 /* CONTACT */
 form{
   max-width:500px;
