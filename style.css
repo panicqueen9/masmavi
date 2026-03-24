@@ -673,18 +673,16 @@ h1{
 
 
 .grid{
-  margin-bottom:250px;
-}
-
-.cinema-grid{
-  margin-top:20px;
-}
-
-
-.grid{
+  margin-bottom:100px;
   display:grid;
   grid-template-columns:repeat(4, 1fr);
   gap:28px;
+}
+
+
+
+.cinema-grid{
+  margin-top:20px;
 }
 
 .cinema-grid{
@@ -750,6 +748,11 @@ h1{
   }
 }
 
+@media (max-width:768px){
+  .grid{
+    margin-bottom:60px;
+  }
+}
 
 /* Mobile Menü Button */
 .menu-toggle{
