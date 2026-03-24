@@ -175,7 +175,7 @@ body{
 
 /* ABOUT */
 #about{
-  padding:220px 10%;
+  padding:120px 10%;
   background:#fafafa;
 }
 
@@ -502,6 +502,13 @@ button:hover{
   .about-text{
     text-align:left;
   }
+
+  /*About Media*/
+  @media (max-width:900px){
+  #about{
+    padding:80px 8%;
+  }
+}
 
   /* CONTACT */
   form{
