@@ -1,206 +1,280 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>masmavi</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>masmavi</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header class="top-header">
-  <div class="brand">
-    <div class="logo">aristeazachariadi</div>
-    <div class="tagline">Was zählt, ist Begeisterung.</div>
-  </div>
+  <!-- =========================
+       HEADER
+  ========================== -->
 
-  <nav class="nav">
-  <a href="#portfolio">Portfolio</a>
-  <a href="#preisliste">Preisliste</a>
-  <a href="#about">Über mich</a>
-  <a href="#contact">Kontakt</a>
-</nav>
-</header>
-  
-<section class="hero-parallax">
-  <div class="hero-overlay">
-    <h1>masmavi</h1>
-    <p>Fotografie & Content</p>
-  </div>
-</section>
+  <header class="top-header">
 
-<section id="portfolio" class="section">
-  <h2>Portfolio</h2>
-  <div class="grid">
-    <img src="bilder/foto1.jpg" alt="">
-    <img src="bilder/foto2.jpg" alt="">
-    <img src="bilder/foto3.jpg" alt="">
-    <img src="bilder/foto4.jpg" alt="">
-    <img src="bilder/foto5.jpg" alt="">
-    <img src="bilder/foto6.jpg" alt="">
-    <img src="bilder/foto7.jpg" alt="">
-    <img src="bilder/foto8.jpg" alt="">
-  </div>
-</section>
-
-<section id="preisliste" class="section">
-
-  <h2 class="price-title">Preisliste</h2>
-
-  <p class="price-text">
-    Hier findest du meine aktuellen Angebote und Preise.
-  </p>
-
-  <a href="pdf/masmavi_preisliste.pdf" target="_blank" class="price-btn">
-    Preisliste ansehen
-  </a>
-
-</section>
-
-<section id="about" class="section">
-  <h2 class="about-title">Über mich</h2>
-
-  <div class="about-container">
-    <div class="about-image">
-      <img src="bilder/about.jpg" alt="Portrait Masmavi">
+    <div class="brand">
+      <div class="logo">aristeazachariadi</div>
+      <div class="tagline">Was zählt, ist Begeisterung.</div>
     </div>
 
-    <div class="about-text">
-      <p>
-        Fotografie und Videografie – zwei Leidenschaften, die mich erfüllen.
-        Oft findest du mich hinter der Kamera, denn dort bin ich in meinem Element.
-        Fotos sind Erinnerungen für die Ewigkeit.
-      </p>
-      <p>
-        Mein Name ist Aristea Zachariadi. Seit vielen Jahren begeistert mich
-        die Fotografie und die multimediale Welt. Neues zu entdecken und
-        zu wachsen treibt mich täglich an.
-      </p>
-      <p>
-        Wenn du auf der Suche nach einer kreativen Gestalterin bist,
-        lass uns bei einem Kaffee darüber sprechen. Ich freue mich auf dich!
-      </p>
+    <nav class="nav">
+      <a href="#portfolio">Portfolio</a>
+      <a href="#preisliste">Preisliste</a>
+      <a href="#about">Über mich</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+
+  </header>
+
+
+  <!-- =========================
+       HERO
+  ========================== -->
+
+  <section class="hero-parallax">
+
+    <div class="hero-overlay">
+      <h1>masmavi</h1>
+      <p>Fotografie &amp; Content</p>
     </div>
-  </div>
-</section>
+
+  </section>
 
 
+  <!-- =========================
+       PORTFOLIO
+  ========================== -->
 
-<section id="contact" class="section">
-  <h2>Kontakt</h2>
+  <section id="portfolio" class="section">
 
-  <form id="contact-form"
-        action="https://formspree.io/f/mgonevwb"
-        method="POST">
+    <h2 class="section-title">Portfolio</h2>
 
-    <input
-      type="text"
-      name="vorname"
-      placeholder="Vorname"
-      required
+    <div class="grid">
+
+      <img src="bilder/foto1.jpg" alt="">
+      <img src="bilder/foto2.jpg" alt="">
+      <img src="bilder/foto3.jpg" alt="">
+      <img src="bilder/foto4.jpg" alt="">
+      <img src="bilder/foto5.jpg" alt="">
+      <img src="bilder/foto6.jpg" alt="">
+      <img src="bilder/foto7.jpg" alt="">
+      <img src="bilder/foto8.jpg" alt="">
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       PREISLISTE
+  ========================== -->
+
+  <section id="preisliste" class="price-section">
+
+    <h2 class="section-title">Preisliste</h2>
+
+    <p class="price-text">
+      Hier findest du meine aktuellen Angebote und Preise.
+    </p>
+
+    <a
+      href="pdf/masmavi_preisliste.pdf"
+      target="_blank"
+      class="price-btn"
+    >
+      Preisliste ansehen
+    </a>
+
+  </section>
+
+
+  <!-- =========================
+       ÜBER MICH
+  ========================== -->
+
+  <section id="about" class="section">
+
+    <h2 class="section-title">Über mich</h2>
+
+    <div class="about-container">
+
+      <div class="about-image">
+        <img
+          src="bilder/about.jpg"
+          alt="Portrait Masmavi"
+        >
+      </div>
+
+      <div class="about-text">
+
+        <p>
+          Fotografie und Videografie – zwei Leidenschaften, die mich erfüllen.
+          Oft findest du mich hinter der Kamera, denn dort bin ich in meinem Element.
+          Fotos sind Erinnerungen für die Ewigkeit.
+        </p>
+
+        <p>
+          Mein Name ist Aristea Zachariadi. Seit vielen Jahren begeistert mich
+          die Fotografie und die multimediale Welt. Neues zu entdecken und
+          zu wachsen treibt mich täglich an.
+        </p>
+
+        <p>
+          Wenn du auf der Suche nach einer kreativen Gestalterin bist,
+          lass uns bei einem Kaffee darüber sprechen. Ich freue mich auf dich!
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       KONTAKT
+  ========================== -->
+
+  <section id="contact" class="section">
+
+    <h2 class="section-title">Kontakt</h2>
+
+    <form
+      id="contact-form"
+      action="https://formspree.io/f/mgonevwb"
+      method="POST"
     >
 
-     <input
-      type="text"
-      name="nachname"
-      placeholder="Nachname"
-      required
-    >
+      <input
+        type="text"
+        name="vorname"
+        placeholder="Vorname"
+        required
+      >
 
-    <input
-      type="email"
-      name="email"
-      placeholder="E-Mail"
-      required
-    >
+      <input
+        type="text"
+        name="nachname"
+        placeholder="Nachname"
+        required
+      >
 
-    <textarea
-      name="message"
-      placeholder="Nachricht"
-      required
-    ></textarea>
+      <input
+        type="email"
+        name="email"
+        placeholder="E-Mail"
+        required
+      >
 
-
-    <!-- WIE KANN ICH HELFEN? -->
-
-    <div class="contact-options">
-
-      <p>Was darf entstehen?</p>
-
-      <label>
-        <input
-          type="radio"
-          name="service"
-          value="Fotografie & Videografie"
-        >
-        Fotografie & Videografie
-      </label>
+      <textarea
+        name="message"
+        placeholder="Nachricht"
+        required
+      ></textarea>
 
 
-      <label>
-        <input
-          type="radio"
-          name="service"
-          value="Web & Design"
-        >
-        Web & Design
-      </label>
+      <!-- WAS DARF ENTSTEHEN? -->
 
+      <div class="contact-options">
 
-      <label>
-        <input
-          type="radio"
-          name="service"
-          value="Life Science & Biotech"
-        >
-        Life Science & Biotech
-      </label>
+        <p>Was darf entstehen?</p>
 
         <label>
-        <input
-          type="radio"
-          name="service"
-          value="Anfrage als Unternehmen"
-        >
-        Anfrage als Unternehmen
-      </label>
+          <input
+            type="radio"
+            name="service"
+            value="Fotografie & Videografie"
+          >
+          Fotografie &amp; Videografie
+        </label>
 
-      <label>
-        <input
-          type="radio"
-          name="service"
-          value="Individuelle Anfrage"
-        >
-        Individuelle Anfrage
-      </label>
+        <label>
+          <input
+            type="radio"
+            name="service"
+            value="Web & Design"
+          >
+          Web &amp; Design
+        </label>
+
+        <label>
+          <input
+            type="radio"
+            name="service"
+            value="Life Science & Biotech"
+          >
+          Life Science &amp; Biotech
+        </label>
+
+        <label>
+          <input
+            type="radio"
+            name="service"
+            value="Anfrage als Unternehmen"
+          >
+          Anfrage als Unternehmen
+        </label>
+
+        <label>
+          <input
+            type="radio"
+            name="service"
+            value="Individuelle Anfrage"
+          >
+          Individuelle Anfrage
+        </label>
+
+      </div>
+
+
+      <button type="submit">
+        Nachricht senden
+      </button>
+
+      <p
+        id="form-status"
+        class="form-status"
+      ></p>
+
+    </form>
+
+  </section>
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer class="footer">
+
+    <div class="footer-inner">
+
+      <span>© 2026 masmavi</span>
+
+      <div class="footer-links">
+        <a href="agb.html">AGB</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
 
     </div>
 
+  </footer>
 
-    <button type="submit">
-      Nachricht senden
-    </button>
 
-    <p id="form-status" class="form-status"></p>
+  <!-- JavaScript -->
+  <script src="script.js"></script>
 
-  </form>
-</section>
-
-<footer class="footer">
-  <div class="footer-inner">
-    <span>© 2026 masmavi</span>
-    <div class="footer-links">
-      <a href="agb.html">AGB</a>
-      <a href="impressum.html">Impressum</a>
-      <a href="datenschutz.html">Datenschutz</a>
-    </div>
-  </div>
-</footer>
-
-<script src="script.js"></script>
 </body>
+
 </html>
