@@ -88,22 +88,123 @@
   </div>
 </section>
 
+
+
 <section id="contact" class="section">
   <h2>Kontakt</h2>
 
-  <form id="contact-form" action="https://formspree.io/f/mgonevwb" method="POST">
-    <input type="text" name="name" placeholder="Name" required>
-    <input type="email" name="email" placeholder="E-Mail" required>
-    <textarea name="message" placeholder="Nachricht" required></textarea>
-    <button type="submit">Nachricht senden</button>
+  <form id="contact-form"
+        action="https://formspree.io/f/mgonevwb"
+        method="POST">
+
+    <input
+      type="text"
+      name="name"
+      placeholder="Name"
+      required
+    >
+
+    <input
+      type="email"
+      name="email"
+      placeholder="E-Mail"
+      required
+    >
+
+    <textarea
+      name="message"
+      placeholder="Nachricht"
+      required
+    ></textarea>
+
+
+    <!-- WIE KANN ICH HELFEN? -->
+
+    <div class="contact-options">
+
+      <p>Was darf entstehen?</p>
+
+      <label>
+        <input
+          type="radio"
+          name="service"
+          value="Fotografie"
+        >
+        Fotografie
+      </label>
+
+      <label>
+        <input
+          type="radio"
+          name="service"
+          value="Videografie"
+        >
+        Videografie
+      </label>
+
+      <label>
+        <input
+          type="radio"
+          name="service"
+          value="Mentoring/Coaching"
+        >
+        Mentoring/Coaching
+      </label>
+
+      <label>
+        <input
+          type="radio"
+          name="service"
+          value="Web & Design"
+        >
+        Web & Design
+      </label>
+
+
+      <label>
+        <input
+          type="radio"
+          name="service"
+          value="Life Science & Biotech"
+        >
+        Life Science & Biotech
+      </label>
+
+        <label>
+        <input
+          type="radio"
+          name="service"
+          value="Anfrage als Unternehmen"
+        >
+        Anfrage als Unternehmen
+      </label>
+
+      <label>
+        <input
+          type="radio"
+          name="service"
+          value="Individuelle Anfrage"
+        >
+        Individuelle Anfrage
+      </label>
+
+    </div>
+
+
+    <button type="submit">
+      Nachricht senden
+    </button>
+
     <p id="form-status" class="form-status"></p>
+
   </form>
 </section>
 
 <footer class="footer">
   <div class="footer-inner">
-    <span>© 2016-2026 masmavi</span>
+    <span>©2026 masmavi</span>
     <div class="footer-links">
+      <a href="AGB.html">AGB</a>
       <a href="impressum.html">Impressum</a>
       <a href="datenschutz.html">Datenschutz</a>
     </div>

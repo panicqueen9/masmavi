@@ -1007,3 +1007,51 @@ h1{
   }
 
 }
+
+/* =========================
+   KONTAKT – AUSWAHL
+========================= */
+
+.contact-options{
+  text-align:left;
+  margin-top:15px;
+}
+
+.contact-options p{
+  margin:0 0 18px;
+  color:#444;
+  font-size:14px;
+}
+
+.contact-options label{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom:12px;
+  font-size:14px;
+  color:#444;
+  cursor:pointer;
+}
+
+.contact-options input[type="radio"]{
+  width:auto;
+  margin:0;
+  accent-color:var(--masmavi);
+}
+
+
+/* =========================
+   KONTAKT RESPONSIVE
+========================= */
+
+@media (max-width:768px){
+
+  .contact-options{
+    text-align:left;
+  }
+
+  .contact-options label{
+    font-size:14px;
+  }
+
+}
